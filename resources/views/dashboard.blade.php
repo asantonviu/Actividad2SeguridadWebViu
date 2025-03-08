@@ -1,3 +1,4 @@
+
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
@@ -10,6 +11,13 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     {{ __("You're logged in!") }}
+                    <!-- Botón que redirige a /info -->
+                    <div class="mt-4">
+                        <a href="{{ route('infouser') }}" 
+                           class="inline-block bg-blue-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 ease-in-out">
+                            {{ __('Go to Info') }}
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
