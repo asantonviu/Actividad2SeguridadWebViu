@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('rol', 7)->after('email')->default('user'); // Rol con tamaño 7
+            $table->string('rol', 7)->after('email')->default('guest'); // Rol con tamaño 7
             $table->string('surname')->after('name'); // Apellido
             $table->timestamp('birth_date')->nullable()->after('surname'); // Fecha de nacimiento
         });
