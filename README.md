@@ -34,11 +34,15 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
   2. El sistema de registro se realizará mediante el paquete Breeze.  
   3. La obtención del token necesario se realizará mediante el login del paquete elegido (Sanctum) para la gestión de autorización en el caso del API REST.  
     El API para login está en:  
-      POST a /api/seguridadweb/loginAPI con body JSON similar a: 
+      POST a /api/seguridadweb/loginAPI con body JSON similar a:  
+
+
       ```  
       {"email": "admin@example.com", "password": "passworD12?_"}  
       ```  
-     
+
+
+
     En caso de ir todo en orden, se devolverá un codigo http 200 con una respuesta similara a:  
       
     
@@ -50,6 +54,7 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
       "token": "3|Q1v4CBvHi7k9CQGcHvpLht9zn2OZmFhezrKDGDgKeafa4f92"  
     }  
     ```  
+  
 
     En caso de error se devolverá el código de error asociado junto a un mensaje descriptivo.   
     El API para logout está en:  
@@ -62,6 +67,7 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
       "message": "Logout OK"  
     }   
     ```  
+  
 
     En caso de error se devolverá el código de error asociado junto a un mensaje descriptivo.  
   4. Se creará una ruta dentro del api para comprobar que se puede acceder a esta únicamente si se tiene el token de autenticación.  
@@ -109,6 +115,8 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
 ]  
     ```  
       
+        
+
     
     Ruta para roles admin y guest:  
       GET a /api/seguridadweb/infoUserAPI con cabecera Authorization tipo Bearer con el token.  
@@ -129,7 +137,8 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
     }  
     ```  
       
-    
+      
+      
     Para el proceso de Autorización hemos creado un Middleware ("CheckUserRol") que recibe como parametros los roles que debe permitir. Si el rol del usuario esta entre los permitidos autoriza la petición en caso contrario devuelve un código http 403 indicando la causa.  
   
   
