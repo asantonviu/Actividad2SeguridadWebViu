@@ -66,6 +66,7 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
   
 
    En caso de error se devolverá el código de error asociado junto a un mensaje descriptivo.  
+   
   4. Se creará una ruta dentro del api para comprobar que se puede acceder a esta únicamente si se tiene el token de autenticación.  
     Para seguir el criterio seguido con Breeze, hemos creado 2 rutas (ver api.php), ambas requieren estar autenticado, una autorizada a roles "admin" y que devuelve un JSON con todos los usuarios y otra para roles "admin" y "guest" que devuelve unicamente información del usuario.  
     Ruta para rol admin:  
