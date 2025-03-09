@@ -40,6 +40,8 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
       ```  
      
     En caso de ir todo en orden, se devolverá un codigo http 200 con una respuesta similara a:  
+      
+    
     ```  
     {  
       "message": "Login OK",  
@@ -53,17 +55,22 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
     El API para logout está en:  
       POST a /api/seguridadweb/logoutAPI con cabecera Authorization tipo Bearer con el token.  
     En caso de ir  todo en orden, se devolverá un codigo http 200 con una respuesta similara a:  
+      
+
     ```  
     {  
       "message": "Logout OK"  
     }   
-    ```   
+    ```  
+
     En caso de error se devolverá el código de error asociado junto a un mensaje descriptivo.  
   4. Se creará una ruta dentro del api para comprobar que se puede acceder a esta únicamente si se tiene el token de autenticación.  
     Para seguir el criterio seguido con Breeze, hemos creado 2 rutas (ver api.php), una autorizada a roles admin y que devuelve un JSON con todos los usuarios y otra para roles admin y guest que devuelve unicamente información del usuario.  
     Ruta para rol admin:  
       GET a /api/seguridadweb/infoAPI con cabecera Authorization tipo Bearer con el token.  
     En caso de ir todo en orden, se devolverá un codigo http 200 con una respuesta similara a:  
+      
+  
     ```  
     [  
     {  
@@ -101,9 +108,13 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
     }  
 ]  
     ```  
+      
+    
     Ruta para roles admin y guest:  
       GET a /api/seguridadweb/infoUserAPI con cabecera Authorization tipo Bearer con el token.  
     En caso de ir todo en orden, se devolverá un codigo http 200 con una respuesta similara a:  
+      
+  
     ```  
     {  
         "id": 4,  
@@ -117,6 +128,8 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
         "updated_at": "2025-03-09T11:34:20.000000Z"  
     }  
     ```  
+      
+    
     Para el proceso de Autorización hemos creado un Middleware ("CheckUserRol") que recibe como parametros los roles que debe permitir. Si el rol del usuario esta entre los permitidos autoriza la petición en caso contrario devuelve un código http 403 indicando la causa.  
   
   
