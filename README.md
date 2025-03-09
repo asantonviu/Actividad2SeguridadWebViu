@@ -29,16 +29,16 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
     La ruta nueva (/info) se accede desde el DashBoard (botón etiquetado con: "Go to Info User") y, en caso de que el usuario autenticado tenga rol "admin", se mostrará información de todos los usuarios disponibles. En caso contrario se mostrará información del usuario autenticado.  
     Dicha ruta es atendida por el controlador: "InfoUserController" y renderizada por la vista: "infouser.blade".  
 
-    #### Imagenes  
-
-    <img src="https://github.com/user-attachments/assets/cfd5dfd1-06e9-443a-b6e4-3d9aadc937f6" />    
-    <img src="https://github.com/user-attachments/assets/3384f0fc-fef2-4057-a910-1e4fecfb8926" />    
-    <img src="https://github.com/user-attachments/assets/d66a8b2d-2c27-463c-b559-e06419f7ccf3" />    
-    <img src="https://github.com/user-attachments/assets/5d31fb88-f316-4357-9745-fb20a27cad33" />    
-    <img src="https://github.com/user-attachments/assets/ec02ebb6-bfd5-4ed6-b276-5efadbb2ada4" />    
-    <img src="https://github.com/user-attachments/assets/d1d20f64-d47c-4464-812a-a79652472b0c" />    
-    <img src="https://github.com/user-attachments/assets/5470f995-8895-4c80-ac63-a3d012015c2c" />    
-    <img src="https://github.com/user-attachments/assets/5d93af0d-494f-4ab8-b44c-bb77ab6099cd" />    
+  
+  #### Imagenes  
+  <img src="https://github.com/user-attachments/assets/cfd5dfd1-06e9-443a-b6e4-3d9aadc937f6" />    
+  <img src="https://github.com/user-attachments/assets/3384f0fc-fef2-4057-a910-1e4fecfb8926" />    
+  <img src="https://github.com/user-attachments/assets/d66a8b2d-2c27-463c-b559-e06419f7ccf3" />    
+  <img src="https://github.com/user-attachments/assets/5d31fb88-f316-4357-9745-fb20a27cad33" />    
+  <img src="https://github.com/user-attachments/assets/ec02ebb6-bfd5-4ed6-b276-5efadbb2ada4" />    
+  <img src="https://github.com/user-attachments/assets/d1d20f64-d47c-4464-812a-a79652472b0c" />    
+  <img src="https://github.com/user-attachments/assets/5470f995-8895-4c80-ac63-a3d012015c2c" />    
+  <img src="https://github.com/user-attachments/assets/5d93af0d-494f-4ab8-b44c-bb77ab6099cd" />    
 
 
 ### Actividad enfocada al uso de Laravel Sanctum donde:
@@ -158,7 +158,7 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
    <img src="https://github.com/user-attachments/assets/000d0ea5-4584-487d-9bfe-b11181e50047" />  
 
 
-
+---  
 La actividad hace uso de Sail, por lo que lleva una BBDD MySQL
 Entregamos Migrations para el modelo de datos y un Seeder que realiza la creación de algunos usuarios.
 La actividad hace uso de MailerSend, por lo que los mails de los usuarios recibiran email de verificacion en los casos necesarios.  
