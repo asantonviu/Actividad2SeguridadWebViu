@@ -13,8 +13,8 @@
   - Antonio Sánchez Antón
   - Febe Rubén Fariña Aguirre
 
-Estudiantes del Máster Universitario en Desarrollo de Aplicaciones y Servicios Web de la Universidad Internacional de Valencia (VIU).
-Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisco Gomez Arnal, en concreto su Actividad 2.
+Estudiantes del Máster Universitario en Desarrollo de Aplicaciones y Servicios Web de la Universidad Internacional de Valencia (VIU).  
+Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisco Gomez Arnal, en concreto su Actividad 2. 
 
 ## Description
 
@@ -130,6 +130,6 @@ En caso contrario los errores son servidos por la parte web.
 
 
 ## License
-La aplicacion tiene un proposito académico.
+La aplicacion tiene un prop´sito académico.  
 Utiliza el framework Laravel, que es un framework Open Source con licencia [MIT license](https://opensource.org/licenses/MIT).
 
