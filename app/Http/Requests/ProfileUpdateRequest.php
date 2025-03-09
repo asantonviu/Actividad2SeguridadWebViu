@@ -17,6 +17,8 @@ class ProfileUpdateRequest extends FormRequest
     {
         return [
             'name' => ['required', 'string', 'max:255'],
+            'surname' => ['sometimes', 'string', 'max:255'],
+            'birth_date' => ['sometimes', 'date', 'before_or_equal:today'],
             'email' => [
                 'required',
                 'string',
@@ -28,3 +30,4 @@ class ProfileUpdateRequest extends FormRequest
         ];
     }
 }
+

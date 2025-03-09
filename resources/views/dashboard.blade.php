@@ -15,7 +15,7 @@
                     <div class="mt-4">
                         <a href="{{ route('infouser') }}" 
                            class="inline-block bg-blue-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-200 ease-in-out">
-                            {{ __('Go to Info') }}
+                            {{ __('Go to Info User') }}
                         </a>
                     </div>
                 </div>
