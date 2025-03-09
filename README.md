@@ -38,8 +38,9 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
       ```  
       {"email": "admin@example.com", "password": "passworD12?_"}  
       ```  
+     
     En caso de ir todo en orden, se devolverá un codigo http 200 con una respuesta similara a:  
-    ```
+    ```  
     {  
       "message": "Login OK",  
       "email": "admin@example.com",  
@@ -47,11 +48,12 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
       "token": "3|Q1v4CBvHi7k9CQGcHvpLht9zn2OZmFhezrKDGDgKeafa4f92"  
     }  
     ```  
+
     En caso de error se devolverá el código de error asociado junto a un mensaje descriptivo.   
     El API para logout está en:  
       POST a /api/seguridadweb/logoutAPI con cabecera Authorization tipo Bearer con el token.  
     En caso de ir  todo en orden, se devolverá un codigo http 200 con una respuesta similara a:  
-    ``` 
+    ```  
     {  
       "message": "Logout OK"  
     }   
@@ -130,6 +132,6 @@ En caso contrario los errores son servidos por la parte web.
 
 
 ## License
-La aplicacion tiene un prop´sito académico.  
+La aplicación tiene un propósito académico.  
 Utiliza el framework Laravel, que es un framework Open Source con licencia [MIT license](https://opensource.org/licenses/MIT).
 
