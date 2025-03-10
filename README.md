@@ -35,8 +35,8 @@ Forma parte de la asignatura de Seguridad Web impartida por el profesor Francisc
   <img src="https://github.com/user-attachments/assets/3384f0fc-fef2-4057-a910-1e4fecfb8926" />    
   <img src="https://github.com/user-attachments/assets/d66a8b2d-2c27-463c-b559-e06419f7ccf3" />    
   <img src="https://github.com/user-attachments/assets/5d31fb88-f316-4357-9745-fb20a27cad33" />    
-  <img src="https://github.com/user-attachments/assets/ec02ebb6-bfd5-4ed6-b276-5efadbb2ada4" />    
-  <img src="https://github.com/user-attachments/assets/d1d20f64-d47c-4464-812a-a79652472b0c" />    
+  <img src="https://github.com/user-attachments/assets/ec02ebb6-bfd5-4ed6-b276-5efadbb2ada4" /> 
+  <img src="https://github.com/user-attachments/assets/58fbe276-f3f4-44f9-b862-4c6eb5256edd" />    
   <img src="https://github.com/user-attachments/assets/5470f995-8895-4c80-ac63-a3d012015c2c" />    
   <img src="https://github.com/user-attachments/assets/5d93af0d-494f-4ab8-b44c-bb77ab6099cd" />    
 
